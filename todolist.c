@@ -43,7 +43,7 @@ int main() {
         printf("8. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-     getchar();
+        getchar();
 
         switch (choice) {
             case 1:
@@ -81,7 +81,7 @@ int main() {
 void addTask() {
     if (num_tasks >= MAX_TASKS) {
         printf("Cannot add more tasks. Task list is full.\n");
-        return 0;
+        return  ;
     }
 
     printf("Enter task details:\n");
